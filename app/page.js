@@ -1,7 +1,6 @@
 "use client";
 import Image from "next/image";
-import Greate from "./components/todo";
-import { Content } from "./components/contents";
+import Index from "./pages/index";
 // import Greete from "./components/todo";
 // import { Counter } from "./components/counter";
 // import { useEffect } from "react";
@@ -15,10 +14,10 @@ export default function Home() {
       </div>
 
       <div>
+        <Index />
 
         
-        <Greate />
-        <Content/>
+      
       </div>
     </div>
   );

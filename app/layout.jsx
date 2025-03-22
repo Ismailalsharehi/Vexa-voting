@@ -2,8 +2,8 @@ import { Geist, Geist_Mono, Lalezar } from "next/font/google";
 import Link from "next/link";
 import "./globals.css";
 // import Navbar from "../components/Navbar/Navbar";
-import Footer from "../components/Footer/Footer";
-import { Navigation } from "./components/navigation";
+// import Footer from "../components/Footer/Footer";
+
 // import './css/bootstrap.min.css';
 
 
@@ -36,15 +36,15 @@ export default function RootLayout({ children }) {
         {/* <h1 className={lalezer.className}>اسماعيل الشارحي</h1>
          */}
         {/* <Navbar /> */}
-        <header className="bg-slate-900 text-white p-4 text-center">
-        <Navigation/>
-        </header>
+        {/* <header className="bg-slate-900 text-white p-4 text-center">
+        
+        </header> */}
         
         {children}
 
-        <footer className="bg-slate-900 text-white p-4 text-center">
+        {/* <footer className="bg-slate-900 text-white p-4 text-center">
           <p>This is the Footer Tags </p>
-        </footer>
+        </footer> */}
         
 
       </body>
