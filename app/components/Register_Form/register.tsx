@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const RegisterForm = () => {
@@ -53,6 +54,8 @@ const RegisterForm = () => {
             تسجيل
           </button>
         </form>
+        <Link href="/login" className=' text-blue-500 font-semibold hover:underline'> Have an Acount?</Link>
+        
       </div>
     </div>
   );
